@@ -1,34 +1,13 @@
-# ejs-no3
-98.10.30  title | from tinyProjects
+# ejs
+98.10.30  read as html | from tinyProjects
 
-[This is final video!](https://www.aparat.com/v/cMdSy)
+[This is final video!](...)
 
-## Overview
-embed js in html!
+## Overview: index.ejs
 ```
-<title><%= pageTitle %> | <%= siteTitle %></title>
+<%- description %>
+<%= description %>
 ```
-## step by step
+line 1 read as text/plain
 
-### Review
-index.js changes over time.
-```
-re.send('...')
-res.render('index1')
-res.render('index1',{...})
-```
-### app.js
-```
-app.locals.siteTitle = 'dadashi site'
-```
-### index.js
-```
-res.render('index1',{
-  pageTitle:'Home',
-  pageID:'home'
-})
-```
-### index.ejs
-```
-<title><%= pageTitle %> | <%= siteTitle %></title>
-```
+line 2 read as text/html
