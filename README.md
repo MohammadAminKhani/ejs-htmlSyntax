@@ -1,7 +1,7 @@
 # ejs
 98.10.30  read as html | from tinyProjects
 
-[This is final video!](...)
+[This is final video!](https://archive.org/details/ejs-no5)
 
 ## Overview: index.ejs
 ```
